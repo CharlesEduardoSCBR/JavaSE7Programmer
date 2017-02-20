@@ -2,12 +2,12 @@ package m1;
 
 public class Teste1 {
 
-	static int id = 1; 
+	static int x = 15; 
 	
-	public static void main(String[] args) {
+	public static void main(String[] x) {
 		
-		System.out.println(id)
-		id = id + 1;
+		x = 200;
+		System.out.println(x);
 	}
 
 }
