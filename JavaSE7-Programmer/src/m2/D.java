@@ -1,14 +1,10 @@
 package m2;
 
-
-class D {
-	int D = 305;
-	
-	void D(){
-		System.out.println(D);
-	}
-	
-	public static void main(String[] args) {
-		new D();
-	}
+class D implements B { //A
+}
+public interface B { //B
+}
+class C extends D { //C
+}
+class E extends D, implements B { //D
 }
